@@ -29,13 +29,7 @@ background-color: $color-blue-one;
  }
 
  .grid{
-    &__skew-dark-one-box {
-        z-index: -10;
-
-        background-color: $color-blue-two;
-        grid-column: 1/3;
-        grid-row: 1/5;
-    }
+    
 
     &__skew-dark-two{
         z-index: -10;

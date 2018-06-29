@@ -1,7 +1,9 @@
 
 $color-blue-one: #549BE6;
 $color-blue-two: #518BDE;
+
 $color-gray-one: #444;
+
 $color-gray-two: #E6E6E6;
 $color-yellow-one: #F7D754;
 
@@ -15,7 +17,7 @@ width: 100vw;
 
 display: grid;
 grid-template-rows: repeat(4, minmax(200px, 1fr)); 
-grid-template-columns: repeat(11, minmax(150px, 1fr));
+grid-template-columns: repeat(10, minmax(150px, 1fr));
 
 
 &__title {
