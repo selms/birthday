@@ -22,8 +22,9 @@ export default class App extends Component {
        
     ]
   } else {
-    return Button('Generate Countdown', () => this.setState({ active: true }))
+      return Button(`Generate Countdown`, () => this.setState({ active: true })) 
   }
+  
   }.bind(this)
 
 
@@ -45,8 +46,8 @@ export default class App extends Component {
       <div className="grid__skew-light-three-box"></div>
 
       <Picker/> 
-      { Button(`Generate Countdown`, () => this.setState({ active: true })) }
-      <Clock/>
+      {this.renderItems() }
+      
         
       </div>
     );
